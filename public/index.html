@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/fonts/simple-line-icons/css/simple-line-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/assets/fonts/iconsmind-s/css/iconsminds.css"
+    />
+
+    <title>React Components</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script>
+      var theme = 'light.purple';
+      if (typeof Storage !== 'undefined') {
+        if (localStorage.getItem('__theme_color')) {
+          theme = localStorage.getItem('__theme_color');
+        }
+      }
+      if (theme.indexOf('dark') != -1) {
+        document.documentElement.style.background = '#1b191b';
+      }
+    </script>
+    <div id="root">
+      <div class="loading"></div>
+    </div>
+  </body>
+</html>
