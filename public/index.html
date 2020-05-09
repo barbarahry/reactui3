@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="public/favicon.ico" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -20,7 +20,7 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="public/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -34,17 +34,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script>
-      var theme = 'light.purple';
-      if (typeof Storage !== 'undefined') {
-        if (localStorage.getItem('__theme_color')) {
-          theme = localStorage.getItem('__theme_color');
-        }
-      }
-      if (theme.indexOf('dark') != -1) {
-        document.documentElement.style.background = '#1b191b';
-      }
-    </script>
+
     <div id="root">
       <div class="loading"></div>
     </div>
