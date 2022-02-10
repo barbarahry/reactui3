@@ -52,7 +52,7 @@
     "sortablejs": "^1.6.1",
     "video.js": "^7.6.0",
     "yup": "^0.27.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -70,6 +70,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
