@@ -16,7 +16,7 @@
     "gh-pages": "^2.2.0",
     "heroku": "^7.40.0",
     "material-table": "^1.57.2",
-    "moment": "2.22.2",
+    "moment": "2.29.4",
     "mousetrap": "^1.6.3",
     "rc-slider": "^8.6.1",
     "rc-switch": "^1.6.0",
